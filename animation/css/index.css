@@ -1,0 +1,50 @@
+body{
+    margin: 0px ;
+}
+.flex-container{
+    display:flex;
+    background-color:black;
+}
+a{
+    color:white;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700px;
+    /*transition: 2s all */
+}
+a:hover{
+    background-color: rgb(220, 22, 7);
+    color: black;
+    font-size: 30px;
+
+}
+.flex-item1{
+    flex: 20%;
+    background-color: green;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display:inline;
+    margin-left:80px ;
+}
+.slider{
+    height: 550px;
+        background-repeat: no-repeat;
+       background-size:100px;
+
+    /*animation property*/
+animation-name:batch3;
+animation-duration:5s;
+animation-delay:;
+animation-iteration-count: infinite;
+}
+
+@keyframes batch3{
+    from{
+        background-image:url(/image/download.jpg) ;
+    }
+    to{
+        background-image:url(/image/imperial.jpg);
+}

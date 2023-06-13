@@ -1,0 +1,59 @@
+body{
+    margin:0;
+    background-color:lightblue;
+}
+.div1{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+
+
+
+/*animation property*/
+animation-name:batch3;
+animation-duration:5s;
+animation-delay:;
+animation-iteration-count: infinite;
+}
+
+@keyframes batch3{
+    0%{
+        left:0px;
+        top:0px;
+        
+    }
+    20%{
+        left:200px;
+        top:0px;
+    }
+    40%{
+        left:200px;
+        top:200px;
+        
+    }
+    60%{
+        left:400px;
+        top:200px;
+        
+    }
+    80%{
+         left:400px;
+        top:400px;
+     
+    }
+    100%{ 
+        left:600px;
+        top:400px;
+       
+    }
+    120%{
+        left:600px;
+        top: 600px;
+    }
+ 
+       
+   
+    
+}

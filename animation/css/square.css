@@ -1,0 +1,52 @@
+body {
+    background-color:black;
+}
+
+
+   
+.div1{
+    height: 100px;
+    width: 100px;
+    background-image: linear-gradient(purple,aqua);
+    border-radius: 50%;
+    position: fixed;
+    margin-left:500px;
+    margin-top: 180px;
+
+/*animation property*/
+animation-name:batch3;
+animation-duration:5s;
+animation-iteration-count: infinite;
+}
+
+ @keyframes batch3{
+    0%{
+        left:0px;
+        top:0px; 
+        background-image: linear-gradient(purple,aqua);  
+    }
+
+    25%{
+        left:200px;
+        top:0px;
+        background-image: linear-gradient(aqua,red);
+    }
+
+    50%{
+        left:200px;
+        top:200px; 
+        background-image: linear-gradient(red,yellow);
+    }
+
+    75%{
+        left:0px;
+        top:200px;  
+        background-image: linear-gradient(yellow,purple);
+    }
+
+    100%{
+         left:0px;
+        top:0px;
+        background-image: linear-gradient(purple,aqua);
+    }    
+}
