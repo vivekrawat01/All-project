@@ -1,0 +1,33 @@
+body{
+	background: black;
+}
+.div1{
+ border-radius: 500px;
+background:white;
+height:350px;
+width: 350px;
+margin: auto;
+ margin-top:150px;
+
+ }
+
+
+ .div2{
+ 	margin-top: -270px;
+    margin-left: 525px;
+	background-color:red;
+	width: 300px;
+	height: 200px;
+	display: flex;
+	border-radius: 35px;
+	justify-content: center;
+	align-items: center;
+}
+
+ .div3{
+	border-top: 50px solid transparent;
+	border-bottom: 50px solid transparent;
+	border-left: 100px solid white;
+    }
+
+	
